@@ -1,2 +1,6 @@
-# EloquentJavaScript
-Solving the exercises in Marijn Haverbeke's book Eloquent JavaScript
+# Eloquent JavaScript
+
+Solving the exercises found in Eloquent Javascript.
+
+**Title**: Eloquent JavaScript, Third Edition  
+**Author**: Marijn Haverbeke
