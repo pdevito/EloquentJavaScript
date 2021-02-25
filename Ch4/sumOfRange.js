@@ -4,10 +4,10 @@
 
 function range(start, end) {
    if (start >= end) {
-      return [end];
+      return [start];
    }
    else {
-      return range(start + 1, end).push(start);
+      return [start].concat(range(start + 1, end));
    }
 }
 
