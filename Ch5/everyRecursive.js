@@ -1,6 +1,5 @@
 function every(array, test) {
-   if (array.length == 0) return test([]);
-   return test(array.shift()) && every(array, test);
+   return array.length == 0 ? test([]) : test(array.shift()) && every(array, test);
 }
 
 console.log(every([1, 3, 5], n => n < 10));
