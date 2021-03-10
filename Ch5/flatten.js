@@ -4,8 +4,8 @@ function reduce(array, combine, start) {
      current = combine(current, element);
    }
    return current;
- }
+}
 
 let arrays = [[1, 2, 3], [4, 5], [6]];
 // → [1, 2, 3, 4, 5, 6]
-console.log(reduce(arrays, (a,b) => [].concat(a,b), []));
+console.log(reduce(arrays, (a,b) => a.concat(b), []));
